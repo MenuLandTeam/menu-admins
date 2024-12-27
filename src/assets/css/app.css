@@ -1,0 +1,7 @@
+.auth-background{
+    background-image: url("/src/assets/images/backgrounds/auth-bg.jpg")!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

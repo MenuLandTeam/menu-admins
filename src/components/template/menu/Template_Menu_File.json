@@ -1,0 +1,76 @@
+[
+  {
+    "title" : true,
+    "fa" : "اطلاعات کلی و داشبورد",
+    "en" : "Dashboards"
+  },
+  {
+    "fa" : "داشبورد",
+    "en" : "Dashboard",
+    "icon" : "fas fa-dashboard",
+    "route_path" : "/",
+    "route_name" : "home",
+    "level"      : 0,
+    "subs" : [
+
+    ]
+  },
+  {
+    "fa" : "کابران",
+    "en" : "Users",
+    "icon" : "fas fa-users",
+    "route_path" : "/",
+    "route_name" : "",
+    "level"      : 0,
+    "subs" : [
+      {
+        "fa" : "مدیران",
+        "en" : "Managers",
+        "route_path" : "/",
+        "route_name" : "",
+        "feature" : "1001",
+        "icon" : "fas fa-user-tie font-20",
+        "level"      : 0.5,
+        "subs" : [
+          {
+            "fa" : "ایجاد مدیر",
+            "en" : "New manager",
+            "route_path" : "/",
+            "route_name" : "users_create",
+            "feature_type" : "create",
+            "level"      : 1,
+            "subs" : [
+
+            ]
+          },
+          {
+            "fa" : "لیست مدیران",
+            "en" : "Managers",
+            "route_path" : "/",
+            "route_name" : "users_index",
+            "feature_type" : "read",
+            "level"      : 1,
+            "subs" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "fa" : "مشتریان",
+        "en" : "Customers",
+        "route_path" : "/",
+        "icon" : "fas fa-user-group font-20",
+        "route_name" : "",
+        "level"      : 0.5,
+        "subs" : [
+
+        ]
+      }
+
+    ]
+  }
+
+
+
+]
