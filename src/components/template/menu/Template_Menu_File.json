@@ -69,8 +69,16 @@
       }
 
     ]
+  },
+  {
+    "fa" : "فروشگاه ها",
+    "en" : "Shops",
+    "icon" : "fas fa-shop",
+    "route_path" : "/shops",
+    "route_name" : "shops",
+    "level"      : 0,
+    "subs" : [
+
+    ]
   }
-
-
-
 ]

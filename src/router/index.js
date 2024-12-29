@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 //import routes
+import {Stores_Auth} from "@/stores/auth/auth.js";
+
 import auth from "@/router/routes/auth/auth.js"
 import dashboard from "@/router/routes/dashboard/dashboard.js";
-import {Stores_Auth} from "@/stores/auth/auth.js";
+import shops from "@/router/routes/shops/shops.js";
 
 
 
@@ -10,7 +12,8 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
       ...auth,
-      ...dashboard
+      ...dashboard,
+      ...shops,
   ],
 })
 
